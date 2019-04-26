@@ -306,3 +306,69 @@ button {
         padding-bottom: 0;
     }
 }
+
+/* HERO SECTION */
+.hero-container {
+    padding: 200px 0 120px 0;
+    background-image: url("../images/stronka-qeweq.jpg");
+    background-size: cover;
+    background-position: center center;
+    /* min-height: 715px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 44px;
+}
+
+.hero-subtitle {
+    text-align: center; 
+}
+
+.hero-subtitle span {
+    position: relative;
+    padding: 0 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.hero-subtitle span::before, .hero-subtitle span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 130px;
+    height: 6px;
+    right: 100%;
+}
+
+.hero-subtitle span::after {
+    left: 100%;
+}
+
+.hero-lead {
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    max-width: 40%;
+    text-align: center;
+}
+
+.hero-scroll {
+    margin-top: 60px;
+}
